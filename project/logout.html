@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <link rel="stylesheet" href="logout.css">
+</head>
+
+<body>
+
+    <div id="main_container">
+        <h1>
+            Librian Information
+        </h1>
+        <div id="user" class="info">
+            <h4>User Name:<span>Aksahy</span></h4>
+        </div>
+        <div id="password" class="info">
+            <h4>Password: <span id="pass_span">123</span>
+            </h4>
+        </div>
+        <div id="c_name" class="info collage">
+            <h4>Collage Name <span id="coll_info">BJS Collage</span>
+            </h4>
+        </div>
+        <div class="info">
+            <button type="submit" onclick="logout()" id="btn">Logout</button>
+        </div>
+        <div style="margin-top: 5px;">
+            <center>
+                <p>Go To Home <a href="libhome.html">Back</a></p>
+            </center>
+        </div>
+        <script>
+            function logout() {
+                location.href = "login.html";
+            }
+        </script>
+    </div>
+</body>
+
+</html>

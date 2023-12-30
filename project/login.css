@@ -1,0 +1,36 @@
+body{
+  background-image: linear-gradient(rgb(248, 154, 236),rgb(154, 154, 241),rgb(171, 233, 156));
+}
+
+h2{
+  text-align: center;
+
+}
+#main_contain{
+    border: 1px solid gray;
+    display: inline-block;
+    position: absolute;
+    margin: 4rem 26rem;
+    padding: 3rem 3rem;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+}
+#username{
+  padding: 1rem 2rem;
+}
+#password{
+    padding: 1rem 2rem;
+  }
+#submit{
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+  padding:5px 5px;
+  text-align: center;
+  background-color:rgb(250, 91, 91);
+  width:60%;
+  margin-top: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}

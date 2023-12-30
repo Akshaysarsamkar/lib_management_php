@@ -1,0 +1,27 @@
+
+*{
+    padding: opx;
+    margin :0px;
+}
+body{
+    background-color: rgb(238, 213, 241);
+}
+#container nav ul{
+    padding: 1rem;
+    display:flex;
+    position: absolute;
+    right: 0px;
+}
+
+#container nav ul li {
+    list-style: none;
+}
+#container nav ul li a{
+    padding:0px 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+

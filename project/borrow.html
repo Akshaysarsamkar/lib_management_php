@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrow page </title>
+    <link rel="stylesheet" href="borrow.css">
+</head>
+
+<body>
+    <div id="content">
+        <h1>Add Book</h1>
+    <form action="borrow.php" method="post">
+        <div id="bookid">
+            <label for="bid">Book id</label>
+            <input type="number" id="bid" value="bookid" name="bid" required>
+        </div>
+
+        <div id="stuid">
+            <label for="bid">Student id</label>
+            <input type="number" id="did" value="stu_id" name="sid" required>
+        </div>
+
+
+        <div>
+            <button type="submit" name="add" value="sub" class="btn" >Add</button>
+            <button type="submit" name="back" value="back" class="btn1" >Return</button>
+        </div>
+
+        <div>
+            <center style="margin-top: 1rem;">
+                <p>check student taken books? <a href="show.php">Show</a></p>
+                <p>Go To Home   <a href="libhome.html">Back</a></p>
+            </center>
+        </div>
+    </form>
+</div>
+</body>
+</html>

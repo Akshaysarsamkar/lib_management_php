@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+
+<body>
+    <div id="books">
+        <h1>Add books</h1>
+
+        <div>
+        <form type="GET" action="book.php"> 
+                <div class="book">
+                    <lable for="b_name">book name:</lable>
+                    <input type="text" id="b_name" name="bname"  required class="input1">
+                </div>
+
+                <div class="book">
+                    <lable for="b_id" class="num">book id:</lable>
+                    <input type="number" id="b_id"  class="input2"  name="id" required>
+                </div>
+
+
+                <div class="book">
+                    <lable for="b_pub">publisher:</lable>
+                    <input type="text" id="b_pub" name="pub" required class="input3">
+                </div>
+
+                <div id="add" class="add">
+                    <button type="submit" name="sub" value="sub" class="btn" onclick="addbtn()">Add</button>
+                    
+                </div>
+                <center><p>Go To Home  <a href="libhome.html">Back</a></p></center>
+            </form>
+        </div>
+    </div>
+   <script>
+       
+       function addbtn()
+       {
+        location.href = "libhome.html";
+       }
+
+       
+   </script>
+</body> 
+
+</html
+
